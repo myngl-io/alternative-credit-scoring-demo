@@ -1,0 +1,18 @@
+{
+"Record_ID": 1, 
+"Record_Date_Stamp":"datetime",
+"Carrier_ID": "alphanumeric", 
+"Carrier_ID-myngl-security": "",
+"Carrier_Name": "alphanumeric", 
+"Carrier_Name-myngl-security": "",
+"Carrier_Address": "alphanumeric", 
+"Carrier_Address-myngl-security": "",
+"Carrier_Address_2": "alphanumeric", 
+"Carrier_Address_2-myngl-security": "",
+"Carrier_City": "alphanumeric",
+"Carrier_City-myngl-security": "",
+"Carrier_Zip": "99999", 
+"Carrier_Zip-myngl-security": "",
+"Carrier_State": "alpha", 
+"Carrier_State-myngl-security": ""
+}

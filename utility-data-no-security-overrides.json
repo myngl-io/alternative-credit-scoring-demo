@@ -1,0 +1,10 @@
+{
+"Record_ID":  1,
+"Provider_ID":  "alphanumeric",
+"Provider_Name":  "alphanumeric",
+"Provider_Address":  "alphanumeric",
+"Provider_Address_2":  "alphanumeric",
+"Provider_City":  "alphanumeric",
+"Provider_Zip":  "xxxxx or xxxxx-xxxx",
+"Provider_State":  "alpha"
+}

@@ -1,0 +1,206 @@
+{
+  "$id": "https://github.com/myngl-io/alternative-credit-scoring-demo/bank-customer-account-schema.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "Myngl-ID": {
+      "$id": "/properties/Myngl-ID",
+      "type": "string",
+      "title": "The Myngl-ID Internal ID - system generated - Schema ",
+      "default": "{uuid}",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Myngl-Owner": {
+      "$id": "/properties/Myngl-Owner",
+      "type": "string",
+      "title": "The Myngl-owner - default supplied by ingest id Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Myngl-Ingest-Dataset": {
+      "$id": "/properties/Myngl-Ingest-Dataset",
+      "type": "string",
+      "title": "The Myngl-Ingest-Dataset - can be sent as 'dataset' parameter to ingest or supplied in json - Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Record_ID": {
+      "$id": "/properties/Record_ID",
+      "type": "integer",
+      "title": "The Record_id Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Record_Date_Stamp": {
+      "$id": "/properties/Record_Date_Stamp",
+      "type": "string",
+      "title": "The Record_date_stamp Schema ",
+      "default": "",
+      "examples": [
+        "datetime"
+      ]
+    },
+    "Record_Date_Stamp-myngl-security": {
+      "$id": "/properties/Record_Date_Stamp",
+      "type": "string",
+      "title": "The Record_date_stamp security Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Myngl-Owner": {
+      "$id": "/properties/Myngl-Owner",
+      "type": "string",
+      "title": "The Myngl-owner Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Bank_ID": {
+      "$id": "/properties/Bank_ID",
+      "type": "string",
+      "title": "The Bank_id Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Bank_ID-myngl-security": {
+      "$id": "/properties/Bank_ID-myngl-security",
+      "type": "string",
+      "title": "The Bank_id-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Myngl-Ingest-Dataset": {
+      "$id": "/properties/Myngl-Ingest-Dataset",
+      "type": "string",
+      "title": "The Myngl-Ingest-dataset Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Customer_Account_Number": {
+      "$id": "/properties/Customer_Account_Number",
+      "type": "integer",
+      "title": "The Customer_account_number Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "Customer_Account_Number-myngl-security": {
+      "$id": "/properties/Customer_Account_Number-myngl-security",
+      "type": "string",
+      "title": "The Customer_account_number-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        "6"
+      ]
+    },
+    "Bank_Account_Type_1": {
+      "$id": "/properties/Bank_Account_Type_1",
+      "type": "string",
+      "title": "The Bank_account_type_1 Schema ",
+      "default": "0",
+      "examples": [
+        "alpha-default-0"
+      ]
+    },
+    "Bank_Account_Type_1-myngl-security": {
+      "$id": "/properties/Bank_Account_Type_1-myngl-security",
+      "type": "string",
+      "title": "The Bank_account_type_1-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Good_Standing_Rank": {
+      "$id": "/properties/Good_Standing_Rank",
+      "type": "integer",
+      "title": "The Good_standing_rank Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "Good_Standing_Rank-myngl-security": {
+      "$id": "/properties/Good_Standing_Rank-myngl-security",
+      "type": "string",
+      "title": "The Good_standing_rank-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Account_Established_Date": {
+      "$id": "/properties/Account_Established_Date",
+      "type": "string",
+      "title": "The Account_established_date Schema ",
+      "default": "0000-00-00",
+      "examples": [
+        "date-default-0000-00-00"
+      ]
+    },
+    "Account_Established_Date-myngl-security": {
+      "$id": "/properties/Account_Established_Date-myngl-security",
+      "type": "string",
+      "title": "The Account_established_date-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Check_Returned_Count": {
+      "$id": "/properties/Check_Returned_Count",
+      "type": "integer",
+      "title": "The Check_returned_count Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Check_Returned_Count-myngl-security": {
+      "$id": "/properties/Check_Returned_Count-myngl-security",
+      "type": "string",
+      "title": "The Check_returned_count-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Bank_Account_Type_2": {
+      "$id": "/properties/Bank_Account_Type_2",
+      "type": "integer",
+      "title": "The Bank_account_type_2 Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "Bank_Account_Type_2-myngl-security": {
+      "$id": "/properties/Bank_Account_Type_2-myngl-security",
+      "type": "string",
+      "title": "The Bank_account_type_2-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    }
+  }
+}

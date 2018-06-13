@@ -1,0 +1,10 @@
+{
+"Record_ID":1,
+"Record_Date_Stamp":"datetime",
+"Customer_Account_Number": 0,
+"Tax_Lien_Status":0,
+"Tax_Lien_Date": "date-default-0000-00-00",
+"Tax_Lien_Amount": 0.00,
+"Tax_Lien_Current_Balance":0,
+"Tax_Lien_Last_Payment_Date": "date-default-0000-00-00"
+}

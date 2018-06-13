@@ -1,0 +1,18 @@
+{
+"Record_ID": 1, 
+"Record_Date_Stamp":"datetime",
+"Provider_ID":  "alphanumeric",
+"Provider_ID-myngl-security":  "0",
+"Provider_Name":  "alphanumeric",
+"Provider_Name-myngl-security":  "0",
+"Provider_Address":  "alphanumeric",
+"Provider_Address-myngl-security":  "0",
+"Provider_Address_2":  "alphanumeric",
+"Provider_Address_2-myngl-security":  "0",
+"Provider_City":  "alphanumeric",
+"Provider_City-myngl-security":  "0",
+"Provider_Zip":  "xxxxx or xxxxx-xxxx",
+"Provider_Zip-myngl-security":  "0",
+"Provider_State":  "alpha",
+"Provider_State-myngl-security":  "0"
+}

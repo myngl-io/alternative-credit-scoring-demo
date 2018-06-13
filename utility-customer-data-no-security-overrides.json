@@ -1,0 +1,18 @@
+{
+"Record_ID": 1, 
+"Record_Date_Stamp":"datetime",
+"Provider_ID":  "alphanumeric",
+"Customer_Account_Number": 0,
+"Customer_First_Name":  "alpha",
+"Customer_Middle_Init":  "alpha",
+"Customer_Last_Name":  "alpha",
+"Customer_SSN":  1,
+"Customer_Name":  "alpha",
+"Customer_Address":  "alphanumeric",
+"Customer_Address_2":  "alphanumeric",
+"Customer_City":  "alphanumeric",
+"Customer_Zip":  "xxxxx or xxxxx-xxxx",
+"Customer_State":  "alpha ",
+"Customer_Phone":  "xxx-xxx-xxxx",
+"Customer_Email":  "email"
+}

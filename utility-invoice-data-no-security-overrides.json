@@ -1,0 +1,14 @@
+{
+"Record_ID": 1, 
+"Record_Date_Stamp":"datetime",
+"Provider_ID":  "alphanumeric",
+"Customer_Account_Number": 0,
+"Invoice_Amount":  0.00,
+"Invoice_Date":  "date",
+"Payment_Due_Date":  "date",
+"Payment_Received":  0.00,
+"Payment_Received_Date":  "date",
+"Balance_Due":  0.00,
+"Electric_KWh_Usage": 0.0,
+"Gas_Therm_Usage": 0.0
+}

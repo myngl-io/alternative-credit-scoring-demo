@@ -1,0 +1,11 @@
+{
+"Record_ID": 1, 
+"Carrier_ID": "alphanumeric", 
+"Carrier_Name": "alphanumeric", 
+"Carrier_Address": "alphanumeric", 
+"Carrier_Address_2": "alphanumeric", 
+"Carrier_City": "alphanumeric",
+"Carrier_Zip": "NNNNN or NNNNN-NNNN", 
+"Carrier_State": "alpha"
+}
+

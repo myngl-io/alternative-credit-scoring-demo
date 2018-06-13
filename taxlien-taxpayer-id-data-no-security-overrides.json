@@ -1,0 +1,15 @@
+{
+"Record_ID":1,
+"Record_Date_Stamp":"datetime",
+"Customer_Account_Number": 0,
+"First_Name": "alpha",
+"Middle_Init": "alpha",
+"Last_Name": "alpha",
+"SSN":1,
+"Name":1,
+"Address": "alphanumeric",
+"Address_2": "alphanumeric",
+"City": "alphanumeric",
+"Zip":1,
+"State": "alpha" 
+}

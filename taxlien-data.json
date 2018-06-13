@@ -1,0 +1,10 @@
+{
+"Record_ID":1,
+"Agency_ID": "alphanumeric",
+"Agency_Name": "alphanumeric",
+"Agency_Address": "alphanumeric",
+"Agency_Address_2": "alphanumeric",
+"Agency_City": "alphanumeric",
+"Agency_Zip":1,
+"Agency_State": "alpha" 
+}

@@ -1,0 +1,18 @@
+{
+"Record_ID":1,
+"Bank_ID":"alphanumeric",
+"Bank_ID-myngl-security":"alphanumeric",
+"Bank_Name":"alphanumeric",
+"Bank_Name-myngl-security": "",
+"Bank_Address":"alphanumeric",
+"Bank_Address-myngl-security": "",
+"Bank_Address_2":"alphanumeric",
+"Bank_Address_2-myngl-security": "",
+"Bank_City":"alphanumeric",
+"Bank_City-myngl-security": "",
+"Bank_Zip":1,
+"Bank_Zip-myngl-security": "",
+"Bank_State":"alpha ",
+"Bank_State-myngl-security": ""
+}
+

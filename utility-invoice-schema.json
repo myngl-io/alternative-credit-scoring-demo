@@ -1,0 +1,233 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "Myngl-ID": {
+      "$id": "/properties/Myngl-ID",
+      "type": "string",
+      "title": "The Myngl-ID Internal ID - system generated - Schema ",
+      "default": "{uuid}",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Myngl-Owner": {
+      "$id": "/properties/Myngl-Owner",
+      "type": "string",
+      "title": "The Myngl-owner - default supplied by ingest id Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Myngl-Ingest-Dataset": {
+      "$id": "/properties/Myngl-Ingest-Dataset",
+      "type": "string",
+      "title": "The Myngl-Ingest-Dataset - can be sent as 'dataset' parameter to ingest or supplied in json - Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Record_ID": {
+      "$id": "/properties/Record_ID",
+      "type": "integer",
+      "title": "The Record_id Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Record_Date_Stamp": {
+      "$id": "/properties/Record_Date_Stamp",
+      "type": "string",
+      "title": "The Record_date_stamp Schema ",
+      "default": "",
+      "examples": [
+        "datetime"
+      ]
+    },
+    "Provider_ID": {
+      "$id": "/properties/Provider_ID",
+      "type": "string",
+      "title": "The Provider_id Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Provider_ID-myngl-security": {
+      "$id": "/properties/Provider_ID-myngl-security",
+      "type": "string",
+      "title": "The Provider_id-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Customer_Account_Number": {
+      "$id": "/properties/Customer_Account_Number",
+      "type": "integer",
+      "title": "The Customer_account_number Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "Customer_Account_Number-myngl-security": {
+      "$id": "/properties/Customer_Account_Number-myngl-security",
+      "type": "integer",
+      "title": "The Customer_account_number-myngl-security Schema ",
+      "default": 0,
+      "examples": [
+        6
+      ]
+    },
+    "Invoice_Amount": {
+      "$id": "/properties/Invoice_Amount",
+      "type": "string",
+      "title": "The Invoice_amount Schema ",
+      "default": 0.00,
+      "examples": [
+        0.00
+      ]
+    },
+    "Invoice_Amount-myngl-security": {
+      "$id": "/properties/Invoice_Amount-myngl-security",
+      "type": "string",
+      "title": "The Invoice_amount-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Invoice_Date": {
+      "$id": "/properties/Invoice_Date",
+      "type": "string",
+      "title": "The Invoice_date Schema ",
+      "default": "",
+      "examples": [
+        "date"
+      ]
+    },
+    "Invoice_Date-myngl-security": {
+      "$id": "/properties/Invoice_Date-myngl-security",
+      "type": "string",
+      "title": "The Invoice_date-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Payment_Due_Date": {
+      "$id": "/properties/Payment_Due_Date",
+      "type": "string",
+      "title": "The Payment_due_date Schema ",
+      "default": "",
+      "examples": [
+        "date"
+      ]
+    },
+    "Payment_Due_Date-myngl-security": {
+      "$id": "/properties/Payment_Due_Date-myngl-security",
+      "type": "string",
+      "title": "The Payment_due_date-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Payment_Received": {
+      "$id": "/properties/Payment_Received",
+      "type": "number",
+      "title": "The Payment_received - (currency) Schema ",
+      "default": 0.00,
+      "examples": [
+        0.00
+      ]
+    },
+    "Payment_Received-myngl-security": {
+      "$id": "/properties/Payment_Received-myngl-security",
+      "type": "string",
+      "title": "The Payment_received-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Payment_Received_Date": {
+      "$id": "/properties/Payment_Received_Date",
+      "type": "string",
+      "title": "The Payment_received_date Schema ",
+      "default": "",
+      "examples": [
+        "date"
+      ]
+    },
+    "Payment_Received_Date-myngl-security": {
+      "$id": "/properties/Payment_Received_Date-myngl-security",
+      "type": "string",
+      "title": "The Payment_received_date-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Balance_Due": {
+      "$id": "/properties/Balance_Due",
+      "type": "string",
+      "title": "The Balance_due Schema ",
+      "default": 0.00,
+      "examples": [
+        0.00
+      ]
+    },
+    "Balance_Due-myngl-security": {
+      "$id": "/properties/Balance_Due-myngl-security",
+      "type": "string",
+      "title": "The Balance_due-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Electric_KWh_Usage": {
+      "$id": "/properties/Electric_KWh_Usage",
+      "type": "integer",
+      "title": "The Electric_kwh_usage Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "Electric_KWh_Usage-myngl-security": {
+      "$id": "/properties/Electric_KWh_Usage-myngl-security",
+      "type": "integer",
+      "title": "The Electric_kwh_usage-myngl-security Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "Gas_Therm_Usage": {
+      "$id": "/properties/Gas_Therm_Usage",
+      "type": "integer",
+      "title": "The Gas_therm_usage Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "Gas_Therm_Usage-myngl-security": {
+      "$id": "/properties/Gas_Therm_Usage-myngl-security",
+      "type": "integer",
+      "title": "The Gas_therm_usage-myngl-security Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    }
+  }
+}

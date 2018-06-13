@@ -1,0 +1,198 @@
+{
+  "$id": "https://github.com/myngl-io/alternative-credit-scoring-demo/utility-schema.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "Myngl-ID": {
+      "$id": "/properties/Myngl-ID",
+      "type": "string",
+      "title": "The Myngl-ID Internal ID - system generated - Schema ",
+      "default": "{uuid}",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Myngl-Owner": {
+      "$id": "/properties/Myngl-Owner",
+      "type": "string",
+      "title": "The Myngl-owner - default supplied by ingest id Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Myngl-Ingest-Dataset": {
+      "$id": "/properties/Myngl-Ingest-Dataset",
+      "type": "string",
+      "title": "The Myngl-Ingest-Dataset - can be sent as 'dataset' parameter to ingest or supplied in json - Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Record_ID": {
+      "$id": "/properties/Record_ID",
+      "type": "integer",
+      "title": "The Record_id Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Record_Date_Stamp": {
+      "$id": "/properties/Record_Date_Stamp",
+      "type": "string",
+      "title": "The Record_date_stamp Schema ",
+      "default": "",
+      "examples": [
+        "datetime"
+      ]
+    },
+    "Myngl-Owner": {
+      "$id": "/properties/Myngl-Owner",
+      "type": "string",
+      "title": "The Myngl-owner Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Myngl-Ingest-Dataset": {
+      "$id": "/properties/Myngl-Ingest-Dataset",
+      "type": "string",
+      "title": "The Myngl-Ingest-Dataset Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Provider_ID": {
+      "$id": "/properties/Provider_ID",
+      "type": "string",
+      "title": "The Provider_id Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Provider_ID-myngl-security": {
+      "$id": "/properties/Provider_ID-myngl-security",
+      "type": "string",
+      "title": "The Provider_id-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Provider_Name": {
+      "$id": "/properties/Provider_Name",
+      "type": "string",
+      "title": "The Provider_name Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Provider_Name-myngl-security": {
+      "$id": "/properties/Provider_Name-myngl-security",
+      "type": "string",
+      "title": "The Provider_name-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Provider_Address": {
+      "$id": "/properties/Provider_Address",
+      "type": "string",
+      "title": "The Provider_address Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Provider_Address-myngl-security": {
+      "$id": "/properties/Provider_Address-myngl-security",
+      "type": "string",
+      "title": "The Provider_address-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Provider_Address_2": {
+      "$id": "/properties/Provider_Address_2",
+      "type": "string",
+      "title": "The Provider_address_2 Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Provider_Address_2-myngl-security": {
+      "$id": "/properties/Provider_Address_2-myngl-security",
+      "type": "string",
+      "title": "The Provider_address_2-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Provider_City": {
+      "$id": "/properties/Provider_City",
+      "type": "string",
+      "title": "The Provider_city Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Provider_City-myngl-security": {
+      "$id": "/properties/Provider_City-myngl-security",
+      "type": "string",
+      "title": "The Provider_city-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Provider_Zip": {
+      "$id": "/properties/Provider_Zip",
+      "type": "string",
+      "title": "The Provider_zip Schema ",
+      "default": "00000",
+      "pattern": "^\d{5}(?:[-\s]\d{4})?$",
+      "examples": [
+        "00000", "00000-00000"
+      ]
+    },
+    "Provider_Zip-myngl-security": {
+      "$id": "/properties/Provider_Zip-myngl-security",
+      "type": "string",
+      "title": "The Provider_zip-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Provider_State": {
+      "$id": "/properties/Provider_State",
+      "type": "string",
+      "title": "The Provider_state Schema ",
+      "default": "",
+      "examples": [
+        "alpha"
+      ]
+    },
+    "Provider_State-myngl-security": {
+      "$id": "/properties/Provider_State-myngl-security",
+      "type": "string",
+      "title": "The Provider_state-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    }
+  }
+}

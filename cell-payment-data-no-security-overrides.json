@@ -1,0 +1,20 @@
+{
+"Record_ID": 1, 
+"Record_Date_Stamp":"datetime",
+"Carrier_ID": "alphanumeric", 
+"Customer_Account_Number": 0,
+"Invoice_Amount": 0.00, 
+"Invoice_Date": "date", 
+"Payment_Due_Date": "date", 
+"Payment_Received": "alpha", 
+"Payment_Received_Date": 1,
+"Day_Time_Minutes": 0,
+"Evening_Minutes":0,
+"Day_Time_Call_Minutes":0,
+"Evening_Call_Minutes":0,
+"Customer_Service_Calls":0,
+"Internation_Minutes":0,
+"Internation_Calls_Minutes":0,
+"WIFI-Included":"alpha",
+"Balance_Due": 0.00
+}

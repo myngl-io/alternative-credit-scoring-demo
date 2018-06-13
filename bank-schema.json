@@ -1,0 +1,171 @@
+{
+  "$id": "https://github.com/myngl-io/alternative-credit-scoring-demo/bank-schema.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "Myngl-ID": {
+      "$id": "/properties/Myngl-ID",
+      "type": "string",
+      "title": "The Myngl-ID Internal ID - system generated - Schema ",
+      "default": "{uuid}",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Myngl-Owner": {
+      "$id": "/properties/Myngl-Owner",
+      "type": "string",
+      "title": "The Myngl-owner - default supplied by ingest id Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Myngl-Ingest-Dataset": {
+      "$id": "/properties/Myngl-Ingest-Dataset",
+      "type": "string",
+      "title": "The Myngl-Ingest-Dataset - can be sent as 'dataset' parameter to ingest or supplied in json - Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Record_ID": {
+      "$id": "/properties/Record_ID",
+      "type": "integer",
+      "title": "The Record_id - must be publisher supplied and it acts as foreign key to related dataset ingest records - Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Bank_ID": {
+      "$id": "/properties/Bank_ID",
+      "type": "string",
+      "title": "The Bank_id Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Bank_ID-myngl-security": {
+      "$id": "/properties/Bank_ID-myngl-security",
+      "type": "string",
+      "title": "The Bank_id-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Bank_Name": {
+      "$id": "/properties/Bank_Name",
+      "type": "string",
+      "title": "The Bank_name Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Bank_Name-myngl-security": {
+      "$id": "/properties/Bank_Name-myngl-security",
+      "type": "string",
+      "title": "The Bank_name-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Bank_Address": {
+      "$id": "/properties/Bank_Address",
+      "type": "string",
+      "title": "The Bank_address Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Bank_Address-myngl-security": {
+      "$id": "/properties/Bank_Address-myngl-security",
+      "type": "string",
+      "title": "The Bank_address-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Bank_Address_2": {
+      "$id": "/properties/Bank_Address_2",
+      "type": "string",
+      "title": "The Bank_address Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Bank_Address_2-myngl-security": {
+      "$id": "/properties/Bank_Address_2-myngl-security",
+      "type": "string",
+      "title": "The Bank_address-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Bank_City": {
+      "$id": "/properties/Bank_City",
+      "type": "string",
+      "title": "The Bank_city Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Bank_City-myngl-security": {
+      "$id": "/properties/Bank_City-myngl-security",
+      "type": "string",
+      "title": "The Bank_city-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Bank_Zip": {
+      "$id": "/properties/Bank_Zip",
+      "type": "string",
+      "title": "The Bank_zip Schema ",
+      "default": "00000",
+      "pattern": "^\d{5}(?:[-\s]\d{4})?$",
+      "examples": [
+        "00000", "00000-00000"
+      ]
+    },
+    "Bank_Zip-myngl-security": {
+      "$id": "/properties/Bank_Zip-myngl-security",
+      "type": "string",
+      "title": "The Bank_zip-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Bank_State": {
+      "$id": "/properties/Bank_State",
+      "type": "string",
+      "title": "The Bank_state Schema ",
+      "default": "",
+      "examples": [
+        "alpha "
+      ]
+    },
+    "Bank_State-myngl-security": {
+      "$id": "/properties/Bank_State-myngl-security",
+      "type": "string",
+      "title": "The Bank_state-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    }
+  }
+}
