@@ -25,7 +25,7 @@
     "Myngl_Ingest_Dataset": {
       "$id": "/properties/Myngl_Ingest_Dataset",
       "type": "string",
-      "title": "The Myngl-Ingest-Dataset - can be sent as 'dataset' parameter to ingest or supplied in json - Schema ",
+      "title": "The Myngl-Ingest-Dataset - can be sent as dataset parameter to ingest or supplied in json - Schema ",
       "default": "",
       "examples": [
         "alphanumeric"
