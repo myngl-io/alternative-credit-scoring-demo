@@ -4,28 +4,28 @@
   "definitions": {},
   "$schema": "http://json-schema.org/draft-07/schema#",
   "properties": {
-    "Myngl-ID": {
-      "$id": "/properties/Myngl-ID",
+    "Myngl_ID": {
+      "$id": "/properties/Myngl_ID",
       "type": "string",
-      "title": "The Myngl-ID Internal ID - system generated - Schema ",
+      "title": "The Myngl_ID Internal ID - system generated - Schema ",
       "default": "{uuid}",
       "examples": [
         "alphanumeric"
       ]
     },
-    "Myngl-Owner": {
-      "$id": "/properties/Myngl-Owner",
+    "Myngl_Owner": {
+      "$id": "/properties/Myngl_Owner",
       "type": "string",
-      "title": "The Myngl-owner - default supplied by ingest id Schema ",
+      "title": "The Myngl_owner - default supplied by ingest id Schema ",
       "default": "",
       "examples": [
         "alphanumeric"
       ]
     },
-    "Myngl-Ingest-Dataset": {
-      "$id": "/properties/Myngl-Ingest-Dataset",
+    "Myngl_Ingest_Dataset": {
+      "$id": "/properties/Myngl_Ingest_Dataset",
       "type": "string",
-      "title": "The Myngl-Ingest-Dataset - can be sent as 'dataset' parameter to ingest or supplied in json - Schema ",
+      "title": "The Myngl_Ingest_Dataset - can be sent as 'dataset' parameter to ingest or supplied in json - Schema ",
       "default": "",
       "examples": [
         "alphanumeric"
