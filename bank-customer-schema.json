@@ -71,7 +71,7 @@
       "$id": "/properties/Customer_Account_Number-myngl-security",
       "type": "string",
       "title": "The Customer_account_number-myngl-security Schema ",
-      "default": "",
+      "default": "6",
       "examples": [
         "6"
       ]
@@ -89,7 +89,7 @@
       "$id": "/properties/Customer_First_Name-myngl-security",
       "type": "string",
       "title": "The Customer_first_name-myngl-security Schema ",
-      "default": "",
+      "default": "6",
       "examples": [
         "6"
       ]
@@ -107,7 +107,7 @@
       "$id": "/properties/Customer_Middle_Init-myngl-security",
       "type": "string",
       "title": "The Customer_middle_init-myngl-security Schema ",
-      "default": "",
+      "default": "6",
       "examples": [
         "6"
       ]
@@ -125,7 +125,7 @@
       "$id": "/properties/Customer_Last_Name-myngl-security",
       "type": "string",
       "title": "The Customer_last_name-myngl-security Schema ",
-      "default": "",
+      "default": "6",
       "examples": [
         "6"
       ]
@@ -143,7 +143,7 @@
       "$id": "/properties/Customer_SSN-myngl-security",
       "type": "string",
       "title": "The Customer_ssn-myngl-security Schema ",
-      "default": "",
+      "default": "6",
       "examples": [
         "6"
       ]
@@ -161,7 +161,7 @@
       "$id": "/properties/Customer_Name-myngl-security",
       "type": "string",
       "title": "The Customer_name-myngl-security Schema ",
-      "default": "",
+      "default": "6",
       "examples": [
         "6"
       ]
@@ -179,7 +179,7 @@
       "$id": "/properties/Customer_Address-myngl-security",
       "type": "string",
       "title": "The Customer_address-myngl-security Schema ",
-      "default": "",
+      "default": "6",
       "examples": [
         "6"
       ]
@@ -197,7 +197,7 @@
       "$id": "/properties/Customer_Address_2-myngl-security",
       "type": "string",
       "title": "The Customer_address-myngl-security Schema ",
-      "default": "",
+      "default": "6",
       "examples": [
         "6"
       ]
@@ -215,7 +215,7 @@
       "$id": "/properties/Customer_City-myngl-security",
       "type": "string",
       "title": "The Customer_city-myngl-security Schema ",
-      "default": "",
+      "default": "6",
       "examples": [
         "6"
       ]
@@ -234,7 +234,7 @@
       "$id": "/properties/Customer_Zip-myngl-security",
       "type": "string",
       "title": "The Customer_zip-myngl-security Schema ",
-      "default": "",
+      "default": "6",
       "examples": [
         "6"
       ]
@@ -252,7 +252,7 @@
       "$id": "/properties/Customer_State-myngl-security",
       "type": "string",
       "title": "The Customer_state-myngl-security Schema ",
-      "default": "",
+      "default": "6",
       "examples": [
         "6"
       ]
@@ -270,7 +270,7 @@
       "$id": "/properties/Customer_Phone-myngl-security",
       "type": "string",
       "title": "The Customer_phone-myngl-security Schema ",
-      "default": "",
+      "default": "6",
       "examples": [
         "6"
       ]
@@ -288,7 +288,7 @@
       "$id": "/properties/Customer_Email-myngl-security",
       "type": "string",
       "title": "The Customer_email-myngl-security Schema ",
-      "default": "",
+      "default": "6",
       "examples": [
         "6"
       ]

@@ -4,7 +4,7 @@
 "Provider_ID":  "alphanumeric",
 "Provider_ID-myngl-security": "",
 "Customer_Account_Number": 0,
-"Customer_Account_Number-myngl-security": 6,
+"Customer_Account_Number-myngl-security": "6",
 "Invoice_Amount":  0.00,
 "Invoice_Amount-myngl-security": "",
 "Invoice_Date":  "date",

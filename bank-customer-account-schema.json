@@ -98,7 +98,7 @@
       "$id": "/properties/Customer_Account_Number-myngl-security",
       "type": "string",
       "title": "The Customer_account_number-myngl-security Schema ",
-      "default": "",
+      "default": "6",
       "examples": [
         "6"
       ]

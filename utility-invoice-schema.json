@@ -80,9 +80,9 @@
       "$id": "/properties/Customer_Account_Number-myngl-security",
       "type": "integer",
       "title": "The Customer_account_number-myngl-security Schema ",
-      "default": 0,
+      "default": "6",
       "examples": [
-        6
+        "6"
       ]
     },
     "Invoice_Amount": {
