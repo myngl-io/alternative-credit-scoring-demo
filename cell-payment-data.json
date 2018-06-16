@@ -28,8 +28,8 @@
 "Internation_Minutes-myngl-security":0,
 "Internation_Calls_Minutes":0,
 "Internation_Calls_Minutes-myngl-security":0,
-"WIFI-Included":"alpha",
-"WIFI-Included-myngl-security":"alpha",
+"WIFI_Included":"alpha",
+"WIFI_Included-myngl-security":"alpha",
 "Balance_Due": 0.00, 
 "Balance_Due-myngl-security": ""
 }

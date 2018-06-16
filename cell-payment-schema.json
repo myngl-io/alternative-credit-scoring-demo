@@ -292,17 +292,17 @@
         0
       ]
     },
-    "WIFI-Included": {
-      "$id": "/properties/WIFI-Included",
+    "WIFI_Included": {
+      "$id": "/properties/WIFI_Included",
       "type": "string",
-      "title": "The Wifi-included Schema ",
+      "title": "The Wifi_included Schema ",
       "default": "",
       "examples": [
         "alpha"
       ]
     },
-    "WIFI-Included-myngl-security": {
-      "$id": "/properties/WIFI-Included-myngl-security",
+    "WIFI_Included-myngl-security": {
+      "$id": "/properties/WIFI_Included-myngl-security",
       "type": "string",
       "title": "The Wifi-included-myngl-security Schema ",
       "default": "",
