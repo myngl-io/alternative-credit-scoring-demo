@@ -16,7 +16,7 @@
     "Myngl_Owner": {
       "$id": "/properties/Myngl_Owner",
       "type": "string",
-      "title": "The Myngl-owner - default supplied by ingest id Schema ",
+      "title": "The Myngl_owner - default supplied by ingest id Schema ",
       "default": "",
       "examples": [
         "alphanumeric"
@@ -25,7 +25,7 @@
     "Myngl_Ingest_Dataset": {
       "$id": "/properties/Myngl_Ingest_Dataset",
       "type": "string",
-      "title": "The Myngl-Ingest-Dataset - can be sent as dataset parameter to ingest or supplied in json - Schema ",
+      "title": "The Myngl_Ingest-Dataset - can be sent as dataset parameter to ingest or supplied in json - Schema ",
       "default": "",
       "examples": [
         "alphanumeric"
@@ -71,15 +71,6 @@
       "$id": "/properties/Bank_ID-myngl-security",
       "type": "string",
       "title": "The Bank_id-myngl-security Schema ",
-      "default": "",
-      "examples": [
-        "alphanumeric"
-      ]
-    },
-    "Myngl-Ingest-Dataset": {
-      "$id": "/properties/Myngl-Ingest-Dataset",
-      "type": "string",
-      "title": "The Myngl-Ingest-dataset Schema ",
       "default": "",
       "examples": [
         "alphanumeric"
