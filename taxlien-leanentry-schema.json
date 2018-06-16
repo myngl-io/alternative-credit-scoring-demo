@@ -49,15 +49,6 @@
         "datetime"
       ]
     },
-    "Myngl_Owner": {
-      "$id": "/properties/Myngl_Owner",
-      "type": "string",
-      "title": "The Myngl_owner Schema ",
-      "default": "",
-      "examples": [
-        "alphanumeric"
-      ]
-    },
     "Myngl_Ingest_Dataset": {
       "$id": "/properties/Myngl_Ingest_Dataset",
       "type": "string",
