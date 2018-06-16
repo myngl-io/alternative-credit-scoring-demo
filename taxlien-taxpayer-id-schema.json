@@ -49,15 +49,6 @@
         "datetime"
       ]
     },
-    "Myngl_Ingest_Dataset": {
-      "$id": "/properties/Myngl_Ingest_Dataset",
-      "type": "string",
-      "title": "The Myngl_Ingest_dataset Schema ",
-      "default": "",
-      "examples": [
-        "alphanumeric"
-      ]
-    },
     "Customer_Account_Number": {
       "$id": "/properties/Customer_Account_Number",
       "type": "integer",
