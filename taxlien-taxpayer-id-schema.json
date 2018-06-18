@@ -213,7 +213,7 @@
     },
     "Zip": {
       "$id": "/properties/Zip",
-      "type": "integer",
+      "type": "string",
       "title": "The Zip Schema ",
       "default": "",
       "examples": [
