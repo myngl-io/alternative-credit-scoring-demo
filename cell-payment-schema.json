@@ -150,11 +150,11 @@
     },
     "Payment_Received_Date": {
       "$id": "/properties/Payment_Received_Date",
-      "type": "integer",
+      "type": "string",
       "title": "The Payment_received_date Schema ",
-      "default": 0,
+      "default": "",
       "examples": [
-        1
+        "datetime"
       ]
     },
     "Payment_Received_Date-myngl-security": {
