@@ -144,7 +144,7 @@
       "type": "string",
       "title": "The Carrier_zip Schema ",
       "default": "00000",
-      "pattern": "^\d{5}(?:[-\s]\d{4})?$",
+      "pattern": "^\\d{5}(?:[-\\s]\\d{4})?$",
       "examples": [
         "00000", "00000-00000"
       ]
