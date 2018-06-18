@@ -40,15 +40,6 @@
         1
       ]
     },
-    "Record_Date_Stamp": {
-      "$id": "/properties/Record_Date_Stamp",
-      "type": "string",
-      "title": "The Record_date_stamp Schema ",
-      "default": "",
-      "examples": [
-        "datetime"
-      ]
-    },
     "Provider_ID": {
       "$id": "/properties/Provider_ID",
       "type": "string",
