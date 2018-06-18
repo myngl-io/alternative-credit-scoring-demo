@@ -194,16 +194,16 @@
       ]
     },
     "Good_Standing_Rank_2-myngl-security": {
-      "$id": "/properties/Good_Standing_Rank-myngl-security",
+      "$id": "/properties/Good_Standing_Rank_2-myngl-security",
       "type": "string",
-      "title": "The Good_standing_rank-myngl-security Schema ",
+      "title": "The Good_standing_rank-myngl_2-security Schema ",
       "default": "",
       "examples": [
         ""
       ]
     },
     "Account_Established_Date_2": {
-      "$id": "/properties/Account_Established_Date",
+      "$id": "/properties/Account_Established_Date_2",
       "type": "string",
       "title": "The Account_established_date_2 Schema ",
       "default": "0000-00-00",
