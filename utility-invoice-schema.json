@@ -87,7 +87,7 @@
     },
     "Invoice_Amount": {
       "$id": "/properties/Invoice_Amount",
-      "type": "string",
+      "type": "number",
       "title": "The Invoice_amount Schema ",
       "default": 0.00,
       "examples": [
