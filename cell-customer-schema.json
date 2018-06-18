@@ -67,15 +67,6 @@
         0
       ]
     },
-    "Customer_Account_Number-myngl-alpha": {
-      "$id": "/properties/Customer_Account_Number-myngl-alpha",
-      "type": "string",
-      "title": "The Customer_account_number-myngl-alpha Schema ",
-      "default": "",
-      "examples": [
-        "6"
-      ]
-    },
     "Customer_First_Name": {
       "$id": "/properties/Customer_First_Name",
       "type": "string",
