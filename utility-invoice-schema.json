@@ -177,7 +177,7 @@
     },
     "Balance_Due": {
       "$id": "/properties/Balance_Due",
-      "type": "string",
+      "type": "number",
       "title": "The Balance_due Schema ",
       "default": 0.00,
       "examples": [
