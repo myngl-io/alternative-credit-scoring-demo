@@ -98,9 +98,9 @@
       "$id": "/properties/Customer_SSN",
       "type": "integer",
       "title": "The Customer_ssn Schema ",
-      "default": 0,
+      "default": "",
       "examples": [
-        1
+        "999-99-9999"
       ]
     },
     "Customer_Name": {

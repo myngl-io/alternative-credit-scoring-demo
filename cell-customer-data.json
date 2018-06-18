@@ -11,7 +11,7 @@
 "Customer_Middle_Init-myngl-security": "6",
 "Customer_Last_Name": "alpha", 
 "Customer_Last_Name-myngl-security": "6",
-"Customer_SSN": 1, 
+"Customer_SSN": "999-99-9999", 
 "Customer_SSN-myngl-security": "6",
 "Customer_Name": "alpha", 
 "Customer_Name-myngl-security": "6",

@@ -6,7 +6,7 @@
 "Customer_First_Name":  "alpha",
 "Customer_Middle_Init":  "alpha",
 "Customer_Last_Name":  "alpha",
-"Customer_SSN":  1,
+"Customer_SSN":  "999-99-9999",
 "Customer_Name":  "alpha",
 "Customer_Address":  "alphanumeric",
 "Customer_Address_2":  "alphanumeric",

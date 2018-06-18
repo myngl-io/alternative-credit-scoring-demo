@@ -123,11 +123,11 @@
     },
     "SSN": {
       "$id": "/properties/SSN",
-      "type": "integer",
+      "type": "string",
       "title": "The Ssn Schema ",
-      "default": 0,
+      "default": "",
       "examples": [
-        1
+        "999-99-9999"
       ]
     },
     "SSN-myngl-security": {
@@ -141,11 +141,11 @@
     },
     "Name": {
       "$id": "/properties/Name",
-      "type": "integer",
+      "type": "string",
       "title": "The Name Schema ",
-      "default": 0,
+      "default": "alphanumeric",
       "examples": [
-        1
+        "alphanumeric"
       ]
     },
     "Name-myngl-security": {
@@ -215,7 +215,7 @@
       "$id": "/properties/Zip",
       "type": "integer",
       "title": "The Zip Schema ",
-      "default": "00000",
+      "default": "",
       "examples": [
         "00000", "00000-00000"
       ]

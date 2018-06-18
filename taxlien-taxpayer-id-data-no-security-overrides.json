@@ -5,11 +5,11 @@
 "First_Name": "alpha",
 "Middle_Init": "alpha",
 "Last_Name": "alpha",
-"SSN":1,
-"Name":1,
+"SSN":"999-99-9999",
+"Name":"alphanumeric",
 "Address": "alphanumeric",
 "Address_2": "alphanumeric",
 "City": "alphanumeric",
-"Zip":1,
+"Zip":"99999",
 "State": "alpha" 
 }
