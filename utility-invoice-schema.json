@@ -195,7 +195,7 @@
     },
     "Electric_KWh_Usage": {
       "$id": "/properties/Electric_KWh_Usage",
-      "type": "integer",
+      "type": "number",
       "title": "The Electric_kwh_usage Schema ",
       "default": 0,
       "examples": [
@@ -213,7 +213,7 @@
     },
     "Gas_Therm_Usage": {
       "$id": "/properties/Gas_Therm_Usage",
-      "type": "integer",
+      "type": "number",
       "title": "The Gas_therm_usage Schema ",
       "default": 0,
       "examples": [
