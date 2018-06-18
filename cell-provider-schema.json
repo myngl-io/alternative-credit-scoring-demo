@@ -178,6 +178,6 @@
     }
   },
 
-  "required": [ "Balance_Due", "Carrier_Address", "Carrier_City", "Carrier_ID", "Carrier_Name", "Carrier_State", "Carrier_Zip"],
-  "indexed-fields": ["Carrier_ID", "Balance_Due", "Carrier_Name"]
+  "required": [ "Carrier_Address", "Carrier_City", "Carrier_ID", "Carrier_Name", "Carrier_State", "Carrier_Zip"],
+  "indexed-fields": ["Carrier_ID", "Carrier_Name"]
 }
