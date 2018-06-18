@@ -1,0 +1,143 @@
+{
+  "$id": "https://github.com/myngl-io/alternative-credit-scoring-demo/taxlean-leanentry-schema.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "Myngl_ID": {
+      "$id": "/properties/Myngl_ID",
+      "type": "string",
+      "title": "The Myngl_ID Internal ID - system generated - Schema ",
+      "default": "{uuid}",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Myngl_Owner": {
+      "$id": "/properties/Myngl_Owner",
+      "type": "string",
+      "title": "The Myngl_owner - default supplied by ingest id Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Myngl_Ingest_Dataset": {
+      "$id": "/properties/Myngl_Ingest_Dataset",
+      "type": "string",
+      "title": "The Myngl_Ingest_Dataset - can be sent as dataset parameter to ingest or supplied in json - Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Record_ID": {
+      "$id": "/properties/Record_ID",
+      "type": "integer",
+      "title": "The Record_id Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Record_Date_Stamp": {
+      "$id": "/properties/Record_Date_Stamp",
+      "type": "string",
+      "title": "The Record_date_stamp Schema ",
+      "default": "",
+      "examples": [
+        "datetime"
+      ]
+    },
+    "Customer_Account_Number": {
+      "$id": "/properties/Customer_Account_Number",
+      "type": "integer",
+      "title": "The Customer_account_number Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "Customer_Account_Number-myngl-security": {
+      "$id": "/properties/Customer_Account_Number-myngl-security",
+      "type": "string",
+      "title": "The Customer_account_number-myngl-security Schema ",
+      "default": "6",
+      "examples": [
+        "6"
+      ]
+    },
+    "Tax_Lien_Status": {
+      "$id": "/properties/Tax_Lien_Status",
+      "type": "integer",
+      "title": "The Tax_lien_status Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "Tax_Lien_Date": {
+      "$id": "/properties/Tax_Lien_Date",
+      "type": "string",
+      "title": "The Tax_lien_date Schema ",
+      "default": "0000-00-00",
+      "examples": [
+        "date-default-0000-00-00"
+      ]
+    },
+    "Tax_Lien_Date-myngl-security": {
+      "$id": "/properties/Tax_Lien_Date-myngl-security",
+      "type": "string",
+      "title": "The Tax_lien_date-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Tax_Lien_Amount": {
+      "$id": "/properties/Tax_Lien_Amount",
+      "type": "number",
+      "title": "The Tax_lien_amount Schema ",
+      "default": 0.00,
+      "examples": [
+        0.00
+      ]
+    },
+    "Tax_Lien_Amount-myngl-security": {
+      "$id": "/properties/Tax_Lien_Amount-myngl-security",
+      "type": "string",
+      "title": "The Tax_lien_amount-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "Tax_Lien_Current_Balance": {
+      "$id": "/properties/Tax_Lien_Current_Balance",
+      "type": "number",
+      "title": "The Tax_lien_current_balance Schema ",
+      "default": 0.0,
+      "examples": [
+        0.0
+      ]
+    },
+    "Tax_Lien_Last_Payment_Date": {
+      "$id": "/properties/Tax_Lien_Last_Payment_Date",
+      "type": "string",
+      "title": "The Tax_lien_last_payment_date Schema ",
+      "default": "0000-00-00",
+      "examples": [
+        "date-default-0000-00-00"
+      ]
+    },
+    "Tax_Lien_Last_Payment_Date-myngl-security": {
+      "$id": "/properties/Tax_Lien_Last_Payment_Date-myngl-security",
+      "type": "string",
+      "title": "The Tax_lien_last_payment_date-myngl-security Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    }
+  }
+}
