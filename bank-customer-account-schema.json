@@ -168,11 +168,11 @@
     },
     "Bank_Account_Type_2": {
       "$id": "/properties/Bank_Account_Type_2",
-      "type": "integer",
+      "type": "string",
       "title": "The Bank_account_type_2 Schema ",
-      "default": 0,
+      "default": "",
       "examples": [
-        0
+        "1","0"
       ]
     },
     "Bank_Account_Type_2-myngl-security": {
