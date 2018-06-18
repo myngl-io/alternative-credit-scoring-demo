@@ -58,122 +58,130 @@
         "alphanumeric"
       ]
     },
-    "Carrier_ID-myngl-security": {
-      "$id": "/properties/Carrier_ID-myngl-security",
+    "Customer_Account_Number": {
+      "$id": "/properties/Customer_Account_Number",
+      "type": "integer",
+      "title": "The Customer_account_number Schema ",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "Customer_Account_Number-myngl-alpha": {
+      "$id": "/properties/Customer_Account_Number-myngl-alpha",
       "type": "string",
-      "title": "The Carrier_id-myngl-security Schema ",
+      "title": "The Customer_account_number-myngl-alpha Schema ",
       "default": "",
       "examples": [
-        ""
+        "6"
       ]
     },
-    "Carrier_Name": {
-      "$id": "/properties/Carrier_Name",
+    "Customer_First_Name": {
+      "$id": "/properties/Customer_First_Name",
       "type": "string",
-      "title": "The Carrier_name Schema ",
-      "default": "",
-      "examples": [
-        "alphanumeric"
-      ]
-    },
-    "Carrier_Name-myngl-security": {
-      "$id": "/properties/Carrier_Name-myngl-security",
-      "type": "string",
-      "title": "The Carrier_name-myngl-security Schema ",
-      "default": "",
-      "examples": [
-        ""
-      ]
-    },
-    "Carrier_Address": {
-      "$id": "/properties/Carrier_Address",
-      "type": "string",
-      "title": "The Carrier_address Schema ",
-      "default": "",
-      "examples": [
-        "alphanumeric"
-      ]
-    },
-    "Carrier_Address-myngl-security": {
-      "$id": "/properties/Carrier_Address-myngl-security",
-      "type": "string",
-      "title": "The Carrier_address-myngl-security Schema ",
-      "default": "",
-      "examples": [
-        ""
-      ]
-    },
-    "Carrier_Address_2": {
-      "$id": "/properties/Carrier_Address_2",
-      "type": "string",
-      "title": "The Carrier_address Schema ",
-      "default": "",
-      "examples": [
-        "alphanumeric"
-      ]
-    },
-    "Carrier_Address_2-myngl-security": {
-      "$id": "/properties/Carrier_Address_2-myngl-security",
-      "type": "string",
-      "title": "The Carrier_address-myngl-security Schema ",
-      "default": "",
-      "examples": [
-        ""
-      ]
-    },
-    "Carrier_City": {
-      "$id": "/properties/Carrier_City",
-      "type": "string",
-      "title": "The Carrier_city Schema ",
-      "default": "",
-      "examples": [
-        "alphanumeric"
-      ]
-    },
-    "Carrier_City-myngl-security": {
-      "$id": "/properties/Carrier_City-myngl-security",
-      "type": "string",
-      "title": "The Carrier_city-myngl-security Schema ",
-      "default": "",
-      "examples": [
-        ""
-      ]
-    },
-    "Carrier_Zip": {
-      "$id": "/properties/Carrier_Zip",
-      "type": "string",
-      "title": "The Carrier_zip Schema ",
-      "default": "00000",
-      "pattern": "^\d{5}(?:[-\s]\d{4})?$",
-      "examples": [
-        "00000", "00000-00000"
-      ]
-    },
-    "Carrier_Zip-myngl-security": {
-      "$id": "/properties/Carrier_Zip-myngl-security",
-      "type": "string",
-      "title": "The Carrier_zip-myngl-security Schema ",
-      "default": "",
-      "examples": [
-        ""
-      ]
-    },
-    "Carrier_State": {
-      "$id": "/properties/Carrier_State",
-      "type": "string",
-      "title": "The Carrier_state Schema ",
+      "title": "The Customer_first_name Schema ",
       "default": "",
       "examples": [
         "alpha"
       ]
     },
-    "Carrier_State-myngl-security": {
-      "$id": "/properties/Carrier_State-myngl-security",
+    "Customer_Middle_Init": {
+      "$id": "/properties/Customer_Middle_Init",
       "type": "string",
-      "title": "The Carrier_state-myngl-security Schema ",
+      "title": "The Customer_middle_init Schema ",
       "default": "",
       "examples": [
-        ""
+        "alpha"
+      ]
+    },
+    "Customer_Last_Name": {
+      "$id": "/properties/Customer_Last_Name",
+      "type": "string",
+      "title": "The Customer_last_name Schema ",
+      "default": "",
+      "examples": [
+        "alpha"
+      ]
+    },
+    "Customer_SSN": {
+      "$id": "/properties/Customer_SSN",
+      "type": "integer",
+      "title": "The Customer_ssn Schema ",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "Customer_Name": {
+      "$id": "/properties/Customer_Name",
+      "type": "string",
+      "title": "The Customer_name Schema ",
+      "default": "",
+      "examples": [
+        "alpha"
+      ]
+    },
+    "Customer_Address": {
+      "$id": "/properties/Customer_Address",
+      "type": "string",
+      "title": "The Customer_address Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Customer_Address_2": {
+      "$id": "/properties/Customer_Address_2",
+      "type": "string",
+      "title": "The Customer_address_2 Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Customer_City": {
+      "$id": "/properties/Customer_City",
+      "type": "string",
+      "title": "The Customer_city Schema ",
+      "default": "",
+      "examples": [
+        "alphanumeric"
+      ]
+    },
+    "Customer_Zip": {
+      "$id": "/properties/Customer_Zip",
+      "type": "string",
+      "title": "The Customer_zip Schema ",
+      "default": "",
+      "examples": [
+        "xxxxx or xxxxx-xxxx"
+      ]
+    },
+    "Customer_State": {
+      "$id": "/properties/Customer_State",
+      "type": "string",
+      "title": "The Customer_state Schema ",
+      "default": "",
+      "examples": [
+        "alpha"
+      ]
+    },
+    "Customer_Phone": {
+      "$id": "/properties/Customer_Phone",
+      "type": "string",
+      "title": "The Customer_phone Schema ",
+      "default": "",
+      "examples": [
+        "xxx-xxx-xxxx"
+      ]
+    },
+    "Customer_Email": {
+      "$id": "/properties/Customer_Email",
+      "type": "string",
+      "title": "The Customer_email Schema ",
+      "default": "",
+      "examples": [
+        "email"
       ]
     }
   }
