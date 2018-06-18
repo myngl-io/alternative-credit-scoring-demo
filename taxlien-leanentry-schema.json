@@ -114,11 +114,11 @@
     },
     "Tax_Lien_Current_Balance": {
       "$id": "/properties/Tax_Lien_Current_Balance",
-      "type": "integer",
+      "type": "number",
       "title": "The Tax_lien_current_balance Schema ",
-      "default": 0,
+      "default": 0.0,
       "examples": [
-        0
+        0.0
       ]
     },
     "Tax_Lien_Last_Payment_Date": {
