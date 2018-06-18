@@ -96,7 +96,7 @@
     },
     "Customer_SSN": {
       "$id": "/properties/Customer_SSN",
-      "type": "integer",
+      "type": "string",
       "title": "The Customer_ssn Schema ",
       "default": "",
       "examples": [
