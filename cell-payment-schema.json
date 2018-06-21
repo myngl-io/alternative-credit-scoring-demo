@@ -78,7 +78,7 @@
     },
     "Invoice_Amount": {
       "$id": "/properties/Invoice_Amount",
-      "type": "string",
+      "type": "number",
       "title": "The Invoice_amount Schema ",
       "default": 0.00,
       "examples": [
@@ -132,11 +132,11 @@
     },
     "Payment_Received": {
       "$id": "/properties/Payment_Received",
-      "type": "string",
+      "type": "number",
       "title": "The Payment_received Schema ",
-      "default": "",
+      "default": 0.0,
       "examples": [
-        "alpha"
+        0.0
       ]
     },
     "Payment_Received-myngl-security": {
@@ -312,7 +312,7 @@
     },
     "Balance_Due": {
       "$id": "/properties/Balance_Due",
-      "type": "string",
+      "type": "number",
       "title": "The Balance_due Schema ",
       "default": 0.00,
       "examples": [
