@@ -87,7 +87,7 @@
     },
     "Agency_Zip": {
       "$id": "/properties/Agency_Zip",
-      "type": "integer",
+      "type": "string",
       "title": "The Agency_zip Schema ",
       "default": "00000",
       "pattern": "^\\d{5}(?:[-\\s]\\d{4})?$",
