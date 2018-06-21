@@ -225,7 +225,7 @@
       "type": "string",
       "title": "The Customer_zip Schema ",
       "default": "",
-      "pattern": "^\d{5}(?:[-\s]\d{4})?$",
+      "pattern": "^\\d{5}(?:[-\\s]\\d{4})?$",
       "examples": [
         "00000", "00000-00000"
       ]
